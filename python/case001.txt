@@ -1,0 +1,12 @@
+import ulmo
+import pandas
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+st =ulmo.ncdc.ghcn_daily.get_stations(country='JA', as_dataframe = True)
+st[st.name.str.contains('TOKYO')]
+data = ulmo.ncdc.ghcn_daily.get_data('JA000047662', as_dataframe = True)
+tm = data['TMAX'].copy()
+tm.value = tm.value/10.0
+tm['value'].plot()
+plt.show()
