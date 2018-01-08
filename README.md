@@ -10,6 +10,7 @@ Trial repository to study github
 
 
 (link)
+
 PyConJP 2016 「週末サイエンティストのススメ」の資料 https://github.com/bakfoo/pyconjp2016
 
 
