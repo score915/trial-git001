@@ -7,10 +7,15 @@ Trial repository to study github
 
 良い機会ですので、勉強しながら、学んだことをこちらに上げてみようと思いました。同じような初心者の方の役に立てばと思います。
 
+keyword:
 
+* Git
+* Github
+* Sourcetree
+* Python
+* Atom
+* Jupyter Notebook
 
 (link)
 
 PyConJP 2016 「週末サイエンティストのススメ」の資料 https://github.com/bakfoo/pyconjp2016
-
-
